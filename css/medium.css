@@ -1,0 +1,29 @@
+@media only screen and (min-width: 32.5em) {
+  header {
+    height:240px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 1.25);
+  }
+  
+  .home-headline1 {
+    font-size: 3rem;
+    padding-top: 1.25em;
+  }
+
+  .home-headline2 {
+    font-size: 2rem;
+  }
+
+  .header-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .profile-img {
+    float: left;
+  }
+
+  footer {
+    border-radius: 10px;
+  }
+}
