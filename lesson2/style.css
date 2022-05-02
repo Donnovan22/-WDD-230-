@@ -7,9 +7,14 @@
 
 header {
   text-align: center;
-  background-color: skyblue;
+  background-color: steelblue;
+  color: whitesmoke;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+h1{
+ font-size: 2rem;
 }
 
 .home-grid{
@@ -21,7 +26,11 @@ header {
 
 .section-hd{
   text-align: left;
-  margin-left:15px;
+  margin:  0 auto;
+  padding: 5px 0 5px 15px;
+  background-color: steelblue;
+  border-radius: 10px 10px 0 0;
+  color: white;
 }
 
 p{
@@ -30,8 +39,10 @@ p{
 }
 
 footer {
-  background-color: skyblue;
-  padding:1rem;
+  background-color: steelblue;
+  padding: 5px;
+  color: whitesmoke;
+  
 }
 #info{
   text-align: center;
@@ -43,16 +54,22 @@ footer {
 .first-column {
   text-align: center;
   border: 1px solid black;
+  border-radius: 10px;
+  background-color: gainsboro;
 }
 
 .second-column {
   text-align: center;
   border: 1px solid black;
+  border-radius: 10px;
+  background-color: gainsboro;
 }
 
 .third-column {
   text-align: center;
   border: 1px solid black;
+  background-color: gainsboro;
+  border-radius: 10px;
 }
 
 
@@ -79,8 +96,16 @@ footer {
   }
   
   footer {
-    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
+  #info{
+    text-align: right;
+  }
+  .last-modified{
+    text-align: left;
+  }
+  
 }
 
 @media only screen and (min-width: 60em ) {
@@ -106,9 +131,14 @@ footer {
   }
  
   footer {
-    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
-
-
+  #info{
+    text-align: right;
+  }
+  .last-modified{
+    text-align: left;
+  }
 }
   
