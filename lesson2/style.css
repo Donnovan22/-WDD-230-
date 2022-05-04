@@ -33,9 +33,11 @@ h1{
   color: white;
 }
 
+
 p{
-  text-align: left;
-  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
 }
 
 footer {
