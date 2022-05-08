@@ -1,18 +1,21 @@
 .content {
   max-width: 1000px;
   margin: 0 auto;
+  font-size: 0.9rem;
 }
 header, footer {
-  background-color: darkcyan;
+  background-color: #05445E;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: white;
 }
 
 nav {
-  background-color: skyblue;
+  background-color: #189AB4;
+  font-family: 'Bree Serif', serif;
   text-align: center;
 }
 nav {
@@ -28,6 +31,7 @@ nav a{
   text-align: center;
   padding: 15px;
   text-decoration: none;
+  color: white;
 }
 
 nav a:hover {
@@ -36,7 +40,7 @@ nav a:hover {
 }
 
 .main-home{
-  background-color:azure;
+  background-color:#D4F1F4;
   display: grid;
   text-align: center;
   padding-top: 50px;
@@ -49,8 +53,13 @@ nav a:hover {
   padding:15px;
 }
 
+h1, h2 ,h3 {
+  font-family: 'Bree Serif', serif;
+}
+
 p {
   text-align: justify;
+  font-family: 'Rubik', sans-serif;
 }
 
 /* Color Scheme Page */
@@ -86,13 +95,21 @@ p {
   padding-bottom: 50px;
 }
 .section-typography {
-  background-color:aquamarine;
+  background-color:#75E6DA;
   border: 1px solid black;
   border-radius: 10px 10px 10px 10px;
   padding: 15px;
 }
 
 @media only screen and (min-width: 37.5em) {
+  .content {
+    font-size: 1rem;
+  }
+
+  header{
+    font-size: 1.25rem;
+  }
+
   nav {
     flex-direction: row;
   }
@@ -119,6 +136,11 @@ p {
 }
 
 @media only screen and (min-width: 60em) {
+ 
+  header{
+    font-size: 1.4rem;
+  }
+
   .main-home {
     grid-template-columns: 1fr 1fr 1fr;
   }
