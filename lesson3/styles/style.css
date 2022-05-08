@@ -53,6 +53,45 @@ p {
   text-align: justify;
 }
 
+/* Color Scheme Page */
+
+.div-hd-color{
+  text-align: center;
+}
+.main-color-scheme {
+  display: grid;
+  padding-bottom: 50px;
+  text-align: center;
+  gap: 2rem;
+}
+
+.div-color-scheme{
+  padding: 15px;
+}
+
+.code {
+  text-align: center;
+}
+
+/* typograpy page*/
+
+.div-hd-typography{
+  text-align: center;
+}
+
+.main-typography{
+  display: grid;
+  text-align: center;
+  gap: 2rem;
+  padding-bottom: 50px;
+}
+.section-typography {
+  background-color:aquamarine;
+  border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
+  padding: 15px;
+}
+
 @media only screen and (min-width: 37.5em) {
   nav {
     flex-direction: row;
@@ -60,6 +99,18 @@ p {
 
   .main-home {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .main-color-scheme {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-typography {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-typography:nth-child(3) {
+    grid-column: 1/3;
   }
 
   footer {
@@ -70,5 +121,17 @@ p {
 @media only screen and (min-width: 60em) {
   .main-home {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .main-color-scheme {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .main-typography {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .section-typography:nth-child(3) {
+    grid-column:auto;
   }
 }
