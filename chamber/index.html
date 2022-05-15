@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment Chamber Home Page Build by Emanuel Valencia in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <title>Chamber Home Page Build</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../chamber/css/normalize.css">
+  <link rel="stylesheet" href="../chamber/css/base.css">
+  <link rel="stylesheet" href="../chamber/css/medium.css">
+  <link rel="stylesheet" href="../chamber/css/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="../chamber/js/scrips.js" defer></script>
+</head>
+<body>
+  <header>
+    <div><img src="../chamber/images/placeholder.png" alt="logo" width="80px"></div>
+    <div>
+      <h1>AQP</h1>
+      <h3>Chamber of Commerce Peru</h3>
+    </div>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a target="blank" href="#">Discover</a></li>
+        <li><a target="blank" href="#">Directory</a></li>
+        <li><a target="blank" href="#">Join</a></li>
+        <li><a target="blank" href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div><a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"></a></a></div>
+    <div><a target="_blank" href="https://www.linkedin.com/company/united-states/" class="fa fa-linkedin"></a></a></div>
+ 
+  </header>
+  <div class="currentFullDate"><span id="currentDate"></span></div>
+  <main class="home-grid">
+    <section class="section1">
+     <p>Hero with site name and call to action</p>
+    </section>
+    <section class="section2">
+      <p>Event</p>
+    </section>
+    <section class="section3">
+      <p>Weather</p>
+    </section>
+    <section class="section4">
+      <p>Join</p>
+    </section>
+    <section class="section5">
+      <p>News Release</p>
+    </section>
+    <section class="section6">
+      <p>Sporlight 1</p>
+      <p>Spotlight 2</p>
+    </section>
+  </main>
+  <footer>
+    <div class="contact-info">
+      <div>
+        <img class="logo-footer" src="../chamber/images/placeholder.png" alt="" width="80px">
+      </div>
+      <div>
+        <h3>AQP Chamber of Commerce Peru</h3>
+        <p>Jose Baquijano y Carrillo 5</p>
+      </div>
+      <div>
+        <p>info@perucommerce.com</p>
+        <p>+51 956-965-986</p>
+        <p><a target="_blank" href="https://www.google.com.pe/maps/search/Jr.+Sebasti%C3%A1n+Barranca+290/@-12.0666609,-77.0155841,18z/data=!3m1!4b1?hl=es-419">Location Map</a></p>
+      </div>
+    </div> 
+    <div class="info">
+      <p>&copy;<span id="year"></span>AQP Chamber of Commerce Peru |</p>
+      <p> Emanuel Valencia |</p>
+      <p>WDD 230 Project |</p>
+      <p class="last-updated"> Last Modification: <span id="lastModification"></span></p>
+    </div>
+  </footer>
+</body>
+</html>
