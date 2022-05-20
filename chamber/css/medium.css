@@ -6,6 +6,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
   }
+  .navigation{
+    position: absolute;
+    top: 2.5rem;
+    right: 250px;
+    
+  }
   .section1 {
     grid-column: 1/4;
     grid-row: 1/2;
