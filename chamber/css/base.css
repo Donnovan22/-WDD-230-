@@ -5,32 +5,37 @@ body{
 }
 
 header {
-  display: flex;
   align-items: center;
   justify-content: center;
   text-align: left;
   background-color: #05445E;
   color: white;
   padding: 15px;
-  gap: 1rem;
   font-size: 0.8rem;
   position: relative;
 }
+
+.upper-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .currentFullDate{
-  background-color: #189AB4;
-  color: white;
+  background-color: #75E6DA;
+  color: 05445E;
   text-align: center;
   padding: 10px;
 }
+
 
 nav{
   margin: 0 auto;
 }
 
 .navigation {
-  position: absolute;
-  top: 0;
-  right: 15px;
+  position: relative;
   background-color:#05445E;
   list-style: none;
   text-align: center;
@@ -54,7 +59,7 @@ nav{
 }
 .navigation a:hover {
   color: black;
-  background-color: white;
+  background-color: #D4F1F4;
 }
 .responsive li {
   display: block;

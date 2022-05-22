@@ -10,7 +10,7 @@
   }
   .navigation{
     display: flex;
-    right: 200px;
+    background-color: #189AB4;
   }
   
   .navigation li {
@@ -20,6 +20,8 @@
 
   .navigation a {
     text-align: center;
+    color: white;
+    
   }
 
   .navigation li:first-child {
