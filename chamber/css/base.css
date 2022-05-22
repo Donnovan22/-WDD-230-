@@ -1,7 +1,17 @@
 body{
+  background-color: #D4F1F4;
   max-width: 950px;
   margin: 0 auto;
   font-family: 'Bree Serif', serif;
+}
+
+#banner {
+  display: block;
+  background-color: maroon;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 header {
