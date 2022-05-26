@@ -1,6 +1,6 @@
 body{
   background-color: #D4F1F4;
-  max-width: 950px;
+  max-width: 1200px;
   margin: 0 auto;
   font-family: 'Bree Serif', serif;
 }
@@ -34,9 +34,10 @@ header {
 
 .currentFullDate{
   background-color: #75E6DA;
-  color: 05445E;
+  color: navy;
   text-align: center;
   padding: 10px;
+  border-radius: 15px;
 }
 
 
@@ -47,6 +48,7 @@ nav{
 .navigation {
   position: relative;
   background-color:#05445E;
+  border-radius: 15px;
   list-style: none;
   text-align: center;
   padding: 0;
@@ -71,17 +73,74 @@ nav{
   color: black;
   background-color: #D4F1F4;
 }
+
 .responsive li {
+  
+  background-color: cornflowerblue;
   display: block;
 }
 
-section{
-  border: 1px solid black;
-  background-color: gainsboro;
-  padding-top: 5px;
-  padding-bottom: 90px;
-  padding-left: 10px;
+.welcome-title{
+  position: absolute;
+  padding-left: 20px;
+  color: whitesmoke;
+  font-size: 1.75rem;
+}
 
+h4 {
+  color: white;
+}
+
+.section1{
+  position: relative;
+  text-align: center;
+}
+
+.section2{
+
+  text-align: center;
+  color: yellow;
+  padding: 20px;
+}
+
+.section3 {
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.section4 {
+  display: none;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.section5 {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+.section6 {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  color: white;
+}
+
+.box {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #05445E;
+}
+
+section{
+  background-color: cornflowerblue;
+  border-radius: 15px;
+  
 }
 .home-grid{
   background-color: #D4F1F4;
@@ -129,3 +188,23 @@ footer {
   color: white;
 }
 
+#join-us-button1 {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 1.5rem;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background-color: #05445E;
+  color: white;
+}
+
+#join-us-button {
+  font-size: 1.5rem;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background-color: #05445E;
+  color: white;
+}
