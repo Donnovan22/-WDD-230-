@@ -10,11 +10,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../chamber/css/normalize.css">
-  <link rel="stylesheet" href="../chamber/css/base.css">
-  <link rel="stylesheet" href="../chamber/css/medium.css">
-  <link rel="stylesheet" href="../chamber/css/large.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/medium.css">
+  <link rel="stylesheet" href="./css/large.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="../chamber/js/scrips.js" defer></script>
+  <script src="js/windchill.js"></script>
 </head>
 <body id="body">
   <header>
@@ -53,6 +54,21 @@
     <section class="section3">
       <h4 class="weather-title">Weather</h4>
       <img  class="weather-img" src="../chamber/images/weather1.jpg" alt="weatehr img">
+      <div>
+        <label id="windChillLabel">Wind Chill: </label>
+        <label id="windChillLabel2">N/A</label><span>°F</span>
+      </div>
+      <div>
+        <label>Temperature: </label>
+        <input id="temperatureInput" placeholder="Tempt in Farenheit">
+      </div>
+      <div>
+        <label>Wind Speed: </label>
+        <input id="windSpeedInput" placeholder="Wind Speed">
+      </div>
+      <div>
+        <button id="calculateButton">Calculate Wind Chill</button>
+      </div>
     </section>
     <section class="section4">
       <h4><span><button type="button" id="join-us-button">Join us!</button></span></h4>
