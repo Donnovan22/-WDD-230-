@@ -20,7 +20,7 @@
 <body id="body">
   <header>
     <div class="upper-header">
-      <div><img src="../chamber/images/LOGO1.png" alt="logo" width="100"></div>
+      <div><img src="images/LOGO-webP.webp" alt="logo"></div>
       <div>
         <h1>AQP</h1>
         <h3>Chamber of Commerce Peru</h3>
@@ -38,11 +38,16 @@
       </ul>
     </nav>  
     <div class="currentFullDate"><span id="currentDate"></span></div>
-  </header>
+  </header> 
   <main class="home-grid">
     <section class="section1">
       <h2 class="welcome-title">Welcome to AQP!</h2>
-      <img class="banner-img" src="../chamber/images/Arequipa-1.jpg" alt="banner">
+      <picture >
+        <source media="(max-width: 400px)", srcset="images/wdd230-org-250.jpg">
+        <source media="(max-width: 959px)", srcset="images/wdd230-org-500.jpg">
+        <img  class="banner-img" src="images/wdd230-org-800.jpg" alt="banner">
+      </picture>
+     
       <button type="button" id="join-us-button1">Join us!</button>
     </section>
     <section class="section2">
@@ -53,21 +58,26 @@
     </section>
     <section class="section3">
       <h4 class="weather-title">Weather</h4>
-      <img  class="weather-img" src="../chamber/images/weather1.jpg" alt="weatehr img">
-      <div>
-        <label id="windChillLabel">Wind Chill: </label>
-        <label id="windChillLabel2">N/A</label><span>°F</span>
-      </div>
-      <div>
-        <label>Temperature: </label>
-        <input id="temperatureInput" placeholder="Tempt in Farenheit">
-      </div>
-      <div>
-        <label>Wind Speed: </label>
-        <input id="windSpeedInput" placeholder="Wind Speed">
-      </div>
-      <div>
-        <button id="calculateButton">Calculate Wind Chill</button>
+      <picture>
+        <source media="(max-width: 400px)", srcset="images/weather-100.jpg">
+        <img  class="weather-img" src="images/weather-200.jpg" alt="weatehr img">
+      </picture>
+      <div class="windChillPart">
+        <div>
+          <label id="windChillLabel">Wind Chill: </label>
+          <label id="windChillLabel2">N/A</label><span>°F</span>
+        </div>
+        <div>
+          <label>Temperature: </label>
+          <input id="temperatureInput" placeholder="Tempt in Farenheit">
+        </div>
+        <div>
+          <label>Wind Speed: </label>
+          <input id="windSpeedInput" placeholder="Wind Speed">
+        </div>
+        <div>
+          <button id="calculateButton">Calculate Wind Chill</button>
+        </div>
       </div>
     </section>
     <section class="section4">
@@ -96,7 +106,7 @@
   <footer>
     <div class="contact-info">
       <div>
-        <img class="logo-footer" src="../chamber/images/LOGO1.png" alt="" width="100">
+        <img class="logo-footer" src="images/LOGO-webP.webp" alt="logoFooter">
       </div>
       <div>
         <h3>AQP Chamber of Commerce Peru</h3>

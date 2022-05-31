@@ -1,6 +1,6 @@
 @media only screen and (min-width: 60em) {
 
-
+  
   header{
     align-items: center;
     justify-content: center;
@@ -45,7 +45,16 @@
   .section3 {
     grid-column: 1/2;
     grid-row: 2/4;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+
   }
+  .weather-title{
+    position: absolute;
+    top: 0;
+  }
+
   .section4 {
     grid-column: 1/2;
     grid-row: 4/5;
@@ -61,6 +70,8 @@
     grid-column: 4/5;
     grid-row: 1/5;
   }
+
+ 
 
   .info{
     display: flex;
