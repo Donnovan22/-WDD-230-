@@ -21,7 +21,16 @@
   .section3 {
     grid-column: 2/3;
     grid-row: 5/6;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
   }
+
+  .weather-title{
+    position: absolute;
+    top: 0;
+  }
+
   .section4 {
     display: block;
     grid-column: 1/4;
