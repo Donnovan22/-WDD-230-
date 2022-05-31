@@ -85,6 +85,10 @@ nav{
   padding-left: 20px;
   color: black;
   font-size: 1.5rem;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 15px;
 }
 
 h4 {
