@@ -255,6 +255,13 @@ footer {
   border-radius: 15px;
 }
 
+.load-storage-part {
+  background-color: #007bb5;
+  color: #D4F1F4;
+  padding: 20px;
+  border-radius: 15px;
+}
+
 img[data-src] {
   filter: blur(0.2em);
 }
