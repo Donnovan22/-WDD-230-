@@ -1,5 +1,5 @@
-body{
-  background-color: white;
+#body{
+  background-color: #D4F1F4;
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Bree Serif', serif;
@@ -159,7 +159,7 @@ section{
   border-radius: 15px;
 }
 .home-grid{
-  background-color: white;
+
   display: grid;
   padding-top: 35px;
   padding-bottom: 35px;
@@ -230,6 +230,39 @@ footer {
   
 }
 
+.discover-body {
+  font-family: 'Bree Serif', serif;
+  background-color: #D4F1F4;
+}
+
+.discover-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 50px;
+}
+
+.description-part{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 50px;
+  background-color: #05445E;
+  color: white;
+  border-radius: 15px;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
 
 
 

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../chamber/css/normalize.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/medium.css">
+  <link rel="stylesheet" href="./css/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="../chamber/js/scrips.js" defer></script>
+  <script src="js/lazyload.js" defer></script>
+</head>
+<body class="discover-body">
+  <header>
+    <div class="upper-header">
+      <div><img src="images/LOGO-webP.webp" alt="logo"></div>
+      <div>
+        <h1>AQP</h1>
+        <h3>Chamber of Commerce Peru</h3>
+      </div>
+      <div><a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"></a></div>
+      <div><a target="_blank" href="https://www.linkedin.com/company/united-states/" class="fa fa-linkedin"></a></div>
+    </div>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a target="blank" href="discover.html">Discover</a></li>
+        <li><a target="blank" href="#">Directory</a></li>
+        <li><a target="blank" href="#">Join</a></li>
+        <li><a target="blank" href="#">Contact</a></li>
+      </ul>
+    </nav>  
+    <div class="currentFullDate"><span id="currentDate"></span></div>
+  </header>
+  <main class="discover-page">
+   
+    <div class="description-part">
+      <div>
+        <h2>About</h2>
+        <p>Arequipa is dominated by its volcanoes. This is apparent in the walls of its streets, buildings and churches; in the wonderful geography that has created a fertile valley and one of the world’s deepest canyons. The city is located on the southwest of Peru, one hour and a half flight from Lima or 1000 Km of travel by bus (travel time of 15 hrs.).</p>
+      </div>
+      <picture>
+        <source media="(max-width: 563px)" srcset="discoverPageImgs/plaza-small.jpg">
+        <img src="images/placeholder.png" data-src="discoverPageImgs/plaza.jpg" alt="plaza img">
+      </picture>
+    </div>
+    <div class="description-part">
+      <div>
+        <h2>Weather</h2>
+        <p>Arequipa has a temperate, dry climate. The temperature ranges between 10 to 25 degrees Celsius. From January to March there is the presence of rain.</p>
+      </div>
+      <picture>
+        <source media="(max-width: 563px)" srcset="discoverPageImgs/weatherAverage-small.jpg">
+        <img src="images/placeholder.png" data-src="discoverPageImgs/weatherAverage.jpg" alt="weather img">
+      </picture>
+    </div>
+    <div class="description-part">
+      <div>
+        <h2>Economy</h2>
+        <p>The Department of Arequipa's GDP is the second highest in Peru, after that of the Department of Lima. From 2003 to 2008, Arequipa was the "city with the greatest economic growth in Latin America" with a 66.1% increase in GDP per capita, according to a 2009 report of "America Economia".</p>
+      </div>
+      <picture>
+        <source media="(max-width: 563px)" srcset="discoverPageImgs/economy-small.jpg">
+        <img src="images/placeholder.png" data-src="discoverPageImgs/economy.jpg" alt="economy img">
+      </picture>
+    </div>
+    <div class="description-part">
+      <div>
+        <h2>Events</h2>
+        <p>The day in which the city was founded is celebrated with parades, beauty pageants, showcases of dancing and competitions on El Misti. There is a large firework show on August 14th in the Plaza de Armas which is a spectacular sight.</p> 
+      </div>
+      <picture>
+        <source media="(max-width: 563px)" srcset="discoverPageImgs/event-small.jpg">
+        <img src="images/placeholder.png" data-src="discoverPageImgs/event.jpg" alt="event img">
+      </picture>
+    </div>
+    <div class="description-part">
+      <div>
+        <h2>Gastronomy</h2>
+        <p>Arequipa has an excellent culinary specialty, and the greatest diversity of typical dishes compared to other regions of Peru. During its course the white city had investigations that recorded 194 varieties of typical dishes and 11 drinks. </p>
+      </div>
+      <picture>
+        <source media="(max-width: 563px)" srcset="discoverPageImgs/gastronomy-small.jpg">
+        <img src="images/placeholder.png" data-src="discoverPageImgs/gastronomy.jpg" alt="gastronomy img">
+      </picture>
+    </div>
+  </main>
+  <footer>
+    <div class="contact-info">
+      <div>
+        <img class="logo-footer" src="images/LOGO-webP.webp" alt="logoFooter">
+      </div>
+      <div>
+        <h3>AQP Chamber of Commerce Peru</h3>
+        <p>Jose Baquijano y Carrillo 5</p>
+      </div>
+      <div>
+        <p>info@safeperucommerce.com</p>
+        <p>+51 956-965-986</p>
+        <p><a target="_blank" href="https://www.google.com.pe/maps/search/Jr.+Sebasti%C3%A1n+Barranca+290/@-12.0666609,-77.0155841,18z/data=!3m1!4b1?hl=es-419">Location Map</a></p>
+      </div>
+    </div> 
+    <div class="info">
+      <p>&copy;<span id="year"></span> AQP Chamber of Commerce Peru |</p>
+      <p> Emanuel Valencia |</p>
+      <p>WDD 230 Project |</p>
+      <p class="last-updated"> Last Modification: <span id="lastModification"></span></p>
+    </div>
+  </footer>
+</body>
+</html>

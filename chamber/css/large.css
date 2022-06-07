@@ -9,7 +9,14 @@
   }
   nav {
     background-color: #05445E;
+    max-width: 1500px;
   }
+
+  .currentFullDate{
+    max-width: 1480px;
+    margin: 0 auto;
+  }
+
   .navigation{
     display: flex;
     background-color: cornflowerblue;
@@ -73,4 +80,19 @@
     text-align: center;
     gap: 1rem;
   }
+
+  .discover-page {
+    font-size: 1.3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  
+  .description-part{
+    flex-direction: row;
+    gap: 5rem;
+    padding: 50px;
+    border: 1px solid black;
+  }
+
 }
