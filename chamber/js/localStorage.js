@@ -25,10 +25,7 @@ todayDisplay.textContent = Date.now();*/
 const displayVisits = document.querySelector(".total");
 const displayTime = document.querySelector(".time");
 
-
-
 let numVisits = Number(window.localStorage.getItem("visits"));
-
 
 if (numVisits !== 0) {
   displayVisits.textContent = numVisits;
@@ -40,7 +37,11 @@ if (numVisits !== 0) {
 numVisits++;
 localStorage.setItem("visits", numVisits);
 
+const lastVisitedAt =  Date.now();
 
+displayTime.textContent = Math.round((lastVisitedAt - Number(localStorage.getItem("lastVisitedAt"))) / 1000);
+
+localStorage.setItem("lastVisitedAt", lastVisitedAt);
 
 
 
