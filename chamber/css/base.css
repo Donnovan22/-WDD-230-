@@ -271,6 +271,65 @@ img {
   transition: filter 0.5s;
 }
 
+.join-body{
+  font-family: 'Bree Serif', serif;
+}
+.join-page{
+  max-width: 800px;
+  margin: 0 auto;
+}
 
+form {
+  border-radius: 15px;
+  margin: 50px;
+  background-color: #75E6DA;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 25px;
+}
 
+.submitButton{
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px black;
+}
 
+form label input, form label select{
+  display: block;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+form label input:hover {
+  background-color: lightgray;
+}
+
+form label input:required {
+  border: 2px solid red;
+}
+
+form label input:required:valid {
+  border: 2px solid green;
+}
+
+.thankyou-body {
+  font-family: 'Bree Serif', serif;
+}
+
+.thankyou-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.thankyou-page p {
+  padding: 50px;
+  background-color: #75E6DA;
+  font-size: 1.5rem;
+}

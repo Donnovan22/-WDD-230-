@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/scrips.js" defer></script>
+</head>
+<body class="join-body">
+  <header>
+    <div class="upper-header">
+      <div><img src="images/LOGO-webP.webp" alt="logo"></div>
+      <div>
+        <h1>AQP</h1>
+        <h3>Chamber of Commerce Peru</h3>
+      </div>
+      <div><a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"></a></div>
+      <div><a target="_blank" href="https://www.linkedin.com/company/united-states/" class="fa fa-linkedin"></a></div>
+    </div>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a target="blank" href="discover.html">Discover</a></li>
+        <li><a target="blank" href="#">Directory</a></li>
+        <li><a target="blank" href="#">Join</a></li>
+        <li><a target="blank" href="#">Contact</a></li>
+      </ul>
+    </nav>  
+    <div class="currentFullDate"><span id="currentDate"></span></div>
+  </header>
+  <main class="join-page">
+    <form method="get" action="thankyou.html">
+      <label for="fname">First Name* <input type="text" name="first-name" id="fname" required></label>
+      <label for="lname">Last Name* <input type="text" name="last-name" id="lname" required></label>
+      <label for="btitle">Business Position <input type="text" name="buisness-field"  id="btitle" minlength="7" pattern="[a-zA-Z- ]+" title="only alpha characters, hyphens, and spaces"></label>
+      <label for="email">Email* <input type="email" name="email" id="email" placeholder="myemail@gmail.com" required></label>
+      <label for="phone">Cell Phone Number* <input type="tel" name="phone-number" id="phone" required></label>
+      <label for="business-name">Business Name* <input type="text" name="bname" id="business-name" required></label>
+      <label for="membership-level">Membership Level
+        <select name="mlevel" id="membership-level">
+          <option value="">select an option</option>
+          <option value="">NP Membership is for non profit organizations and there is no fee</option>
+          <option value="">Bronze Membership</option>
+          <option value="">Silver Membership</option>
+          <option value="">Gold Membership</option>
+        </select>
+      </label>
+      <label for="text-area">Business Description:</label>
+      <textarea name="textArea" id="text-area" cols="20" rows="5"></textarea>
+      <input type="hidden" name="date">
+      <input type="submit" value="Submit" class="submitButton">
+      
+      
+     
+    
+
+  </main>
+  <footer>
+    <div class="contact-info">
+      <div>
+        <img class="logo-footer" src="images/LOGO-webP.webp" alt="logoFooter">
+      </div>
+      <div>
+        <h3>AQP Chamber of Commerce Peru</h3>
+        <p>Jose Baquijano y Carrillo 5</p>
+      </div>
+      <div>
+        <p>info@safeperucommerce.com</p>
+        <p>+51 956-965-986</p>
+        <p><a target="_blank" href="https://www.google.com.pe/maps/search/Jr.+Sebasti%C3%A1n+Barranca+290/@-12.0666609,-77.0155841,18z/data=!3m1!4b1?hl=es-419">Location Map</a></p>
+      </div>
+    </div> 
+    <div class="info">
+      <p>&copy;<span id="year"></span> AQP Chamber of Commerce Peru |</p>
+      <p> Emanuel Valencia |</p>
+      <p>WDD 230 Project |</p>
+      <p class="last-updated"> Last Modification: <span id="lastModification"></span></p>
+    </div>
+  </footer>
+</body>
+</html>
