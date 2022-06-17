@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(243, 232, 232);
+  font-family: 'Bree Serif', serif;
+}
+
+header, footer {
+  width: 100%;
+  background-color: rgb(202, 119, 80);
+  padding: 10px;
+  text-align: center;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  padding-bottom: 30px;
+  background-color: rgb(121, 89, 89);
+  color: white;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img:hover {
+  box-shadow: 0 0 30px rgb(255, 255, 255);
+}
