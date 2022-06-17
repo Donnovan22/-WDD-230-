@@ -39,31 +39,63 @@
     <div class="currentFullDate"><span id="currentDate"></span></div>
   </header>
   <main class="join-page">
-    <form method="get" action="thankyou.html">
-      <label for="fname">First Name* <input type="text" name="first-name" id="fname" required></label>
-      <label for="lname">Last Name* <input type="text" name="last-name" id="lname" required></label>
-      <label for="btitle">Business Position <input type="text" name="buisness-field"  id="btitle" minlength="7" pattern="[a-zA-Z- ]+" title="only alpha characters, hyphens, and spaces"></label>
-      <label for="email">Email* <input type="email" name="email" id="email" placeholder="myemail@gmail.com" required></label>
-      <label for="phone">Cell Phone Number* <input type="tel" name="phone-number" id="phone" required></label>
-      <label for="business-name">Business Name* <input type="text" name="bname" id="business-name" required></label>
-      <label for="membership-level">Membership Level
-        <select name="mlevel" id="membership-level">
-          <option value="">select an option</option>
-          <option value="">NP Membership is for non profit organizations and there is no fee</option>
-          <option value="">Bronze Membership</option>
-          <option value="">Silver Membership</option>
-          <option value="">Gold Membership</option>
-        </select>
-      </label>
-      <label for="text-area">Business Description:</label>
-      <textarea name="textArea" id="text-area" cols="20" rows="5"></textarea>
-      <input type="hidden" name="date">
-      <input type="submit" value="Submit" class="submitButton">
-      
-      
-     
-    
-
+    <section>
+      <form method="get" action="thankyou.html">
+        <label for="fname">First Name* <input type="text" name="first-name" id="fname" required></label>
+        <label for="lname">Last Name* <input type="text" name="last-name" id="lname" required></label>
+        <label for="btitle">Business Position <input type="text" name="buisness-field"  id="btitle" minlength="7" pattern="[a-zA-Z- ]+" title="only alpha characters, hyphens, and spaces"></label>
+        <label for="email">Email* <input type="email" name="email" id="email" placeholder="myemail@gmail.com" required></label>
+        <label for="phone">Cell Phone Number* <input type="tel" name="phone-number" id="phone" required></label>
+        <label for="business-name">Business Name* <input type="text" name="bname" id="business-name" required></label>
+        <label for="membership-level">Membership Level
+          <select name="mlevel" id="membership-level">
+            <option value="">select an option</option>
+            <option value="">NP Membership</option>
+            <option value="">Bronze Membership</option>
+            <option value="">Silver Membership</option>
+            <option value="">Gold Membership</option>
+          </select>
+        </label>
+        <label for="text-area">Business Description:</label>
+        <textarea name="textArea" id="text-area" cols="20" rows="5"></textarea>
+        <input type="hidden" name="date">
+        <input type="submit" value="Submit" class="submitButton">
+      </form>
+    </section>
+    <section class="membership-section">
+      <div>
+        <h2>Membership Level Benefits</h2>
+      </div>
+      <div>
+        <h3>Non Profit Membership</h3>
+        <p>• Be a member of the AQP Chamber of Commerce for no fee.<br>
+          • One free ticket to the Annual Awards event
+        </p>
+      </div>
+      <div>
+        <h3>Bronze Membership</h3>
+        <p>• Join at this level if you want to use Chamber marketing programs to promote your business.<br> 
+          • Meeting with Chamber staff to strategize around Chamber resources and opportunities<br>
+          • $450/year
+        </p>
+      </div>
+      <div>
+        <h3>Silver Membership</h3>
+        <p>• Made for medium to large companies and non-profit organizations seeking a higher profile opportunity to market and demonstrate investment in the Superior community.<br>
+          • Two free tickets to the Annual Awards event<br>
+          • $1200/year
+        </p>
+      </div>
+      <div>
+        <h3>Gold Membership</h3>
+        <p>• Our top membership level provides the highest visibility and indication of community investment.<br>  
+          • Four free tickets to the Annual Awards event<br>
+          • Logo appears on Chamber website home page, banners<br> 
+          • Annual meeting with Executive Director and Board Officer<br> 
+          • $3,250/year 
+        </p>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="contact-info">
