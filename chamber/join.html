@@ -40,27 +40,29 @@
   </header>
   <main class="join-page">
     <section>
-      <form method="get" action="thankyou.html">
-        <label for="fname">First Name* <input type="text" name="first-name" id="fname" required></label>
-        <label for="lname">Last Name* <input type="text" name="last-name" id="lname" required></label>
-        <label for="btitle">Business Position <input type="text" name="buisness-field"  id="btitle" minlength="7" pattern="[a-zA-Z- ]+" title="only alpha characters, hyphens, and spaces"></label>
-        <label for="email">Email* <input type="email" name="email" id="email" placeholder="myemail@gmail.com" required></label>
-        <label for="phone">Cell Phone Number* <input type="tel" name="phone-number" id="phone" required></label>
-        <label for="business-name">Business Name* <input type="text" name="bname" id="business-name" required></label>
-        <label for="membership-level">Membership Level
-          <select name="mlevel" id="membership-level">
-            <option value="">select an option</option>
-            <option value="">NP Membership</option>
-            <option value="">Bronze Membership</option>
-            <option value="">Silver Membership</option>
-            <option value="">Gold Membership</option>
-          </select>
-        </label>
-        <label for="text-area">Business Description:</label>
-        <textarea name="textArea" id="text-area" cols="20" rows="5"></textarea>
-        <input type="hidden" name="date">
-        <input type="submit" value="Submit" class="submitButton">
-      </form>
+      <div>
+        <form method="get" action="thankyou.html">
+          <label for="fname">First Name* <input type="text" name="first-name" id="fname" required></label>
+          <label for="lname">Last Name* <input type="text" name="last-name" id="lname" required></label>
+          <label for="btitle">Business Position <input type="text" name="buisness-field"  id="btitle" minlength="7" pattern="[a-zA-Z- ]+" title="only alpha characters, hyphens, and spaces"></label>
+          <label for="email">Email* <input type="email" name="email" id="email" placeholder="myemail@gmail.com" required></label>
+          <label for="phone">Cell Phone Number* <input type="tel" name="phone-number" id="phone" required></label>
+          <label for="business-name">Business Name* <input type="text" name="bname" id="business-name" required></label>
+          <label for="membership-level">Membership Level
+            <select name="mlevel" id="membership-level">
+              <option value="">select an option</option>
+              <option value="">NP Membership</option>
+              <option value="">Bronze Membership</option>
+              <option value="">Silver Membership</option>
+              <option value="">Gold Membership</option>
+            </select>
+          </label>
+          <label for="text-area">Business Description:</label>
+          <textarea name="textArea" id="text-area" cols="20" rows="5"></textarea>
+          <input type="hidden" name="date">
+          <input type="submit" value="Submit" class="submitButton">
+        </form>
+      </div>
     </section>
     <section class="membership-section">
       <div>
