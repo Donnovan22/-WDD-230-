@@ -79,7 +79,7 @@
     font-size: 1.1rem;
   }
   
-  img:hover {
+  .discover-page img:hover {
   box-shadow: 0 0 50px white;
   }
 
@@ -92,6 +92,10 @@
 
   .submitButton{
     width: 150px;
+  }
+
+  .directory-cards section {
+
   }
 
 }
