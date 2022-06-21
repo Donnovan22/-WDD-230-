@@ -1,12 +1,12 @@
-const requestURL = "https://github.com/Donnovan22/wdd230/blob/main/chamber/json/data.json";
+const requestURL = "json/data.json";
 const cards = document.querySelector(".directory-cards");
 
 async function getCompanies() {
   let response = await fetch(requestURL);
   if(response.ok) {
     let data = await response.json();
-    //console.log(data);
-    buildProphetCards(data);
+    console.log(data);
+    buildCompaniesCards(data);
   } else {
     throw Error(response.statusText);
   };
