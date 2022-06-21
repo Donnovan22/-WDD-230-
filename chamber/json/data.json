@@ -1,0 +1,67 @@
+{
+  "companies": [
+    {
+      "name": "Grupo Gloria",
+      "adress": " Av. Alfonso Ugarte, Arequipa 04011",
+      "phoneNumber": "0800-1-4441",
+      "websiteurl": "https://www.gloria.com.pe/Site/nosotros",
+      "img": "images/directoryPageImgs/gloria.jpg"
+    },
+    {
+      "name": "Aceros Arequipa",
+      "adress": " Km 5.5, Cerro Colorado, Arequipa",
+      "phoneNumber": "(51-01) 517 1800",
+      "websiteurl": "https://www.acerosarequipa.com/",
+      "img": "images/directoryPageImgs/aceros-arequipa.jpg"
+    },
+    {
+      "name": "Cemento Yura",
+      "adress": "Carretera Yura Km 26",
+      "phoneNumber": "(+51) 958 576 044",
+      "websiteurl": "https://www.yura.com.pe/",
+      "img": "images/directoryPageImgs/yura.jpg"
+    },
+    {
+      "name": "Cerro Verde",
+      "adress": "Av. Alfonso Ugarte 304, Arequipa, Perú",
+      "phoneNumber": "(+51) 54 381515",
+      "websiteurl": "https://www.cerroverde.pe/",
+      "img": "images/directoryPageImgs/cerroverde.jpg"
+    },
+    {
+      "name": "Seal",
+      "adress": "Sucre 402 - Arequipa",
+      "phoneNumber": "(054) 381188",
+      "websiteurl": "http://www.seal.com.pe/Paginas/Inicio.aspx",
+      "img": "images/directoryPageImgs/seal.jpg"
+    },
+    {
+      "name": "Inca Tops",
+      "adress": "Av. Miguel Forga N° 348",
+      "phoneNumber": "(054) 602500",
+      "websiteurl": "https://www.incatops.com/es/",
+      "img": "images/directoryPageImgs/inca.jpg"
+    },
+    {
+      "name": "Backus",
+      "adress": "1801, Sachaca 04013",
+      "phoneNumber": "(511) 311-3000",
+      "websiteurl": "https://www.backus.pe/",
+      "img": "images/directoryPageImgs/backus.jpg"
+    },
+    {
+      "name": "Altozano",
+      "adress": "Alameda Salaverry - Miraflores",
+      "phoneNumber": "(054) 600233",
+      "websiteurl": "https://altozano.pe/",
+      "img": "images/directoryPageImgs/altozano.jpg"
+    },
+    {
+      "name": "Caja Arequipa",
+      "adress": "C. la Merced 100 - 106",
+      "phoneNumber": "(054) 380670",
+      "websiteurl": "https://www.cajaarequipa.pe/",
+      "img": "images/directoryPageImgs/caja.jpg"
+    }
+  ]
+}
