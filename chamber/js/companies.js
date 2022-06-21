@@ -19,19 +19,16 @@ function buildCompaniesCards(data) {
     let p = document.createElement("p");
     let p2 = document.createElement("p");
     let p3 = document.createElement("p");
-    let logo = document.createElement('img');
-
-    p.textContent = `${company.adress}`;
-    p2.textContent = `${company.phoneNumber}`;
-    p3.textContent = `${company.websiteurl}`;
- 
+    let logo = document.createElement('img')
 
     logo.setAttribute("src", company.img);
     logo.setAttribute("alt", `logo image of ${company.name}`);
     logo.setAttribute("loading", "lazy");
 
+    p.textContent = `${company.adress}`;
+    p2.textContent = `${company.phoneNumber}`;
+    p3.innerHTML = `<a href="${company.websiteurl}" target="_blank">${company.websiteurl}</a>`
     
-
     card.append(logo);
     card.append(p);
     card.append(p2);
