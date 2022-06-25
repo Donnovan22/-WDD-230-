@@ -18,24 +18,32 @@
 <body class="join-body">
   <header>
     <div class="upper-header">
-      <div><img src="images/LOGO-webP.webp" alt="logo"></div>
-      <div>
-        <h1>AQP</h1>
-        <h3>Chamber of Commerce Peru</h3>
+      <div class="left-header">
+        <div><img class="my-logo" src="images/LOGO-webP.webp" alt="logo"></div>
+        <div>
+          <h1>AQP</h1>
+          <h3>Chamber of Commerce Peru</h3>
+        </div>
       </div>
-      <div><a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"></a></div>
-      <div><a target="_blank" href="https://www.linkedin.com/company/united-states/" class="fa fa-linkedin"></a></div>
+      <div class="right-header">
+        <div>
+          <nav>
+            <ul class="navigation">
+              <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a target="blank" href="discover.html">Discover</a></li>
+              <li><a target="blank" href="directory.html">Directory</a></li>
+              <li><a target="blank" href="join.html">Join</a></li>
+              <li><a target="blank" href="#">Contact</a></li>
+            </ul>
+          </nav>  
+        </div>
+        <div class="icon-part">
+          <div><a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"></a></div>
+          <div><a target="_blank" href="https://www.linkedin.com/company/united-states/" class="fa fa-linkedin"></a></div>
+        </div>
+      </div>
     </div>
-    <nav>
-      <ul class="navigation">
-        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a target="blank" href="discover.html">Discover</a></li>
-        <li><a target="blank" href="directory.html">Directory</a></li>
-        <li><a target="blank" href="join.html">Join</a></li>
-        <li><a target="blank" href="#">Contact</a></li>
-      </ul>
-    </nav>  
     <div class="currentFullDate"><span id="currentDate"></span></div>
   </header>
   <main class="join-page">
