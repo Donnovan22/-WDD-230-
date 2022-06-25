@@ -16,6 +16,7 @@ function buildCompaniesCards(data) {
   data.companies.forEach(company => {
 
     let card = document.createElement('section');
+    let name = document.createElement("h3");
     let p = document.createElement("p");
     let p2 = document.createElement("p");
     let p3 = document.createElement("p");
@@ -25,11 +26,13 @@ function buildCompaniesCards(data) {
     logo.setAttribute("alt", `logo image of ${company.name}`);
     logo.setAttribute("loading", "lazy");
 
+    name.textContent = company.name;
     p.textContent = `${company.adress}`;
     p2.textContent = `${company.phoneNumber}`;
     p3.innerHTML = `<a href="${company.websiteurl}" target="_blank">${company.websiteurl}</a>`
     
     card.append(logo);
+    card.append(name);
     card.append(p);
     card.append(p2);
     card.append(p3);

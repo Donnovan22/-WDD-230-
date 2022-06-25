@@ -5,6 +5,30 @@
   header{
     font-size: 1rem;
   }
+
+  .upper-header {
+    justify-content: space-around;
+  }
+
+  .left-header {
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .right-header{
+    gap: 2rem;
+    padding-right: 45px;
+  }
+
+  .icon-part {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .navigation{ 
+    position: absolute;
+  }
   .home-grid {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -94,8 +118,15 @@
     width: 150px;
   }
 
-  .directory-cards section {
+  .directory-main .list {
+    font-size: 0.9rem;
+  }
 
+  .directory-main .list section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
   }
 
 }

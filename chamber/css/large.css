@@ -2,23 +2,44 @@
 
   
   header{
-    align-items: center;
-    justify-content: center;
     padding: 15px;
-    gap: 1rem;
   }
+  .navigation{ 
+    position: relative;
+  }
+
+  .upper-header {
+    gap: 4rem;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .left-header {
+    
+    gap: 1rem;
+    
+  }
+
+  .right-header {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
   nav {
     background-color: #05445E;
-    max-width: 1500px;
   }
 
   .currentFullDate{
-    max-width: 1480px;
+    
     margin: 0 auto;
   }
 
   .navigation{
     display: flex;
+    flex-direction: row;
+    width: 500px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: cornflowerblue;
   }
   
@@ -104,4 +125,11 @@
     width: 700px;
   }
 
+  .directory-main .list {
+    font-size: 1rem;
+  }
+
+  .list section img {
+		display: block;
+  }
 }

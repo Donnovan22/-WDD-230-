@@ -15,21 +15,42 @@
 }
 
 header {
-  align-items: center;
-  justify-content: center;
-  text-align: left;
   background-color: #05445E;
   color: white;
   padding: 15px;
   font-size: 0.8rem;
-  position: relative;
+}
+
+.my-logo{
+  margin-top: 20px;
 }
 
 .upper-header {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  padding: 5px;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding-right: 15px;
+}
+
+.right-header {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+  padding-right: 65px;
+}
+
+.icon-part {
+  gap: 0.4rem;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .currentFullDate{
@@ -46,12 +67,13 @@ nav{
 }
 
 .navigation {
-  position: relative;
+  position: absolute;
   background-color:#05445E;
   border-radius: 15px;
   list-style: none;
   text-align: center;
   padding: 0;
+
 }
 
 .navigation li:first-child {
@@ -361,7 +383,6 @@ form label input:required:valid {
 .directory-main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .directory-cards {
@@ -370,7 +391,7 @@ form label input:required:valid {
 }
 
 .directory-cards section {
-  margin: 1rem;
+  margin: 15px 15px 15px 15px;
   padding: 0.35rem;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -381,4 +402,41 @@ form label input:required:valid {
   flex-direction: column;
   align-items: center;
   box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.directory-main .menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 250px;
+  
+}
+
+.directory-main .menu button {
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+.directory-main .list {
+  font-size: 0.7rem;
+  width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.directory-main .list section {
+	display: block;
+  padding: 10px;
+}
+
+.list section img {
+	display: none;
 }
