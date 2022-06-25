@@ -5,63 +5,72 @@
       "adress": " Av. Alfonso Ugarte, Arequipa 04011",
       "phoneNumber": "0800-1-4441",
       "websiteurl": "https://www.gloria.com.pe/Site/",
-      "img": "directoryPageImages/gloria.jpg"
+      "img": "directoryPageImages/gloria.jpg",
+      "memLevel": "Non Profit Membership"
     },
     {
       "name": "Aceros Arequipa",
       "adress": " Km 5.5, Cerro Colorado, Arequipa",
       "phoneNumber": "(51-01) 517 1800",
       "websiteurl": "https://www.acerosarequipa.com/",
-      "img": "directoryPageImages/aceros-arequipa.jpg"
+      "img": "directoryPageImages/aceros-arequipa.jpg",
+      "memLevel": "Bronze Membership"
     },
     {
       "name": "Cemento Yura",
       "adress": "Carretera Yura Km 26",
       "phoneNumber": "(+51) 958 576 044",
       "websiteurl": "https://www.yura.com.pe/",
-      "img": "directoryPageImages/yura.jpg"
+      "img": "directoryPageImages/yura.jpg",
+      "memLevel": "Silver Membership"
     },
     {
       "name": "Cerro Verde",
       "adress": "Av. Alfonso Ugarte 304, Arequipa, Perú",
       "phoneNumber": "(+51) 54 381515",
       "websiteurl": "https://www.cerroverde.pe/",
-      "img": "directoryPageImages/cerroverde.jpg"
+      "img": "directoryPageImages/cerroverde.jpg",
+      "memLevel": "Gold Membership"
     },
     {
       "name": "Seal",
       "adress": "Sucre 402 - Arequipa",
       "phoneNumber": "(054) 381188",
       "websiteurl": "http://www.seal.com.pe/",
-      "img": "directoryPageImages/seal.jpg"
+      "img": "directoryPageImages/seal.jpg",
+      "memLevel": "Non Profit Membership"
     },
     {
       "name": "Inca Tops",
       "adress": "Av. Miguel Forga N° 348",
       "phoneNumber": "(054) 602500",
       "websiteurl": "https://www.incatops.com/es/",
-      "img": "directoryPageImages/inca.jpg"
+      "img": "directoryPageImages/inca.jpg",
+      "memLevel": "Gold Membership"
     },
     {
       "name": "Backus",
       "adress": "1801, Sachaca 04013",
       "phoneNumber": "(511) 311-3000",
       "websiteurl": "https://www.backus.pe/",
-      "img": "directoryPageImages/backus.jpg"
+      "img": "directoryPageImages/backus.jpg",
+      "memLevel": "Non Profit Membership"
     },
     {
       "name": "Altozano",
       "adress": "Alameda Salaverry - Miraflores",
       "phoneNumber": "(054) 600233",
       "websiteurl": "https://altozano.pe/",
-      "img": "directoryPageImages/altozano.jpg"
+      "img": "directoryPageImages/altozano.jpg",
+      "memLevel": "Silver Membership"
     },
     {
       "name": "Caja Arequipa",
       "adress": "C. la Merced 100 - 106",
       "phoneNumber": "(054) 380670",
       "websiteurl": "https://www.cajaarequipa.pe/",
-      "img": "directoryPageImages/caja.jpg"
+      "img": "directoryPageImages/caja.jpg",
+      "memLevel": "Non Profit Membership"
     }
   ]
 }

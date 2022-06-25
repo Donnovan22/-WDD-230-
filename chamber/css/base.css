@@ -440,3 +440,11 @@ form label input:required:valid {
 .list section img {
 	display: none;
 }
+
+.directory-main .company-name {
+  display: none;
+}
+
+.list .company-name {
+  display: block;
+}

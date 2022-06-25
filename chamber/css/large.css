@@ -1,9 +1,9 @@
 @media only screen and (min-width: 65em) {
 
-  
   header{
     padding: 15px;
   }
+
   .navigation{ 
     position: relative;
   }
@@ -15,9 +15,7 @@
   }
 
   .left-header {
-    
     gap: 1rem;
-    
   }
 
   .right-header {
@@ -30,7 +28,6 @@
   }
 
   .currentFullDate{
-    
     margin: 0 auto;
   }
 
@@ -91,8 +88,6 @@
     grid-row: 1/5;
   }
 
- 
-
   .info{
     display: flex;
     flex-direction: row;
@@ -131,5 +126,9 @@
 
   .list section img {
 		display: block;
+  }
+
+  .list .company-name{
+    display: none;
   }
 }
