@@ -1,0 +1,39 @@
+
+
+body{
+  height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+  font-family: 'Bree Serif', serif;
+}
+
+section{
+  border-radius: 15px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+
+
+.current {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-header {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.footer {
+  border-top: 1px solid black;
+  text-align: center;
+}
+
