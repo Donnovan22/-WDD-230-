@@ -61,7 +61,6 @@ header {
   border-radius: 15px;
 }
 
-
 nav{
   margin: 0 auto;
 }
@@ -73,7 +72,12 @@ nav{
   list-style: none;
   text-align: center;
   padding: 0;
+  z-index: 1;
+}
 
+.extra a:visited {
+  text-decoration: none; 
+  color: orange; 
 }
 
 .navigation li:first-child {
@@ -100,6 +104,8 @@ nav{
 .responsive li {
   background-color: cornflowerblue;
   display: block;
+  
+  
 }
 
 h4 {
@@ -230,6 +236,8 @@ footer {
   padding: 15px;
   gap: 1rem;
 }
+
+
 
 .info{
   text-align: center;
