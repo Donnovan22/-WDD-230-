@@ -1,6 +1,5 @@
 #body{
-  background-color: #D4F1F4;
-  
+  background-color: rgb(239, 239, 239);
   margin: 0 auto;
   font-family: 'Bree Serif', serif;
 }
@@ -105,17 +104,17 @@ nav{
 .responsive li {
   background-color: cornflowerblue;
   display: block;
-  
-  
 }
 
-h4 {
-  color: white;
-}
 
 .section1{
   position: relative;
   text-align: center;
+  box-shadow: 0 0 10px black;
+}
+
+.section1 img {
+  border-radius: 15px;
 }
 
 .welcome-title{
@@ -133,8 +132,25 @@ h4 {
 .section2{
   background-color: cornflowerblue;
   text-align: center;
-  color: yellow;
+  color: white;
   padding: 20px;
+  box-shadow: 0 0 10px black;
+}
+
+.section2 img {
+  box-shadow: 0 0 20px white;
+}
+
+#click-here-button{
+  font-size: 1.3rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px black;
+  padding: 5px;
+}
+
+#click-here-button:hover {
+  box-shadow: 0 0 10px white;
 }
 
 .section3 {
@@ -143,6 +159,7 @@ h4 {
   align-items: center;
   color: black;
   padding: 15px;
+  box-shadow: 0 0 10px black;
 }
 
 .weather-part {
@@ -151,12 +168,12 @@ h4 {
   justify-content: center;
   font-size: 2.5rem;
   margin-bottom: -50px;
-  margin-top: -20px;
+  margin-top: -30px;
 
 }
 
 #weather-img {
- width: 150px;
+ width: 130px;
 }
 
 .windChillPart{
@@ -167,7 +184,7 @@ h4 {
 }
 
 #current-condition{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .windChill-part {
@@ -176,8 +193,9 @@ h4 {
 }
 
 .weather-title {
+  margin-top: 0px;
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   border-bottom: 1px solid black;
   padding-bottom: 15px;
 }
@@ -189,6 +207,7 @@ h4 {
   text-align: center;
   padding: 20px;
   color: black;
+  box-shadow: 0 0 10px black;
 }
 
 .section5 {
@@ -197,29 +216,43 @@ h4 {
   padding-left: 15px;
   padding-right: 15px;
   color: white;
+  box-shadow: 0 0 10px black;
 }
 
 .section6 {
-  background-color: cornflowerblue;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
-  padding: 15px;
   flex-direction: column;
-  text-align: center;
   gap: 1rem;
-  color: white;
+  background-color: cornflowerblue;
+  box-shadow: 0 0 10px black;
+  align-items: center;
 }
 
-.box {
-  padding: 15px;
+.box1, .box2, .box3 {
+  font-size: 0.8rem;
   border-radius: 15px;
-  background-color: #05445E;
+  background-color: white;
+  box-shadow: 0 0 10px white;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+}
+
+.box1 img, .box2 img, .box3 img {
+  width: 100px;
+  box-shadow: 0 0 10px black;
 }
 
 section{
   border-radius: 15px;
 }
 .home-grid{
-  max-width: 1600px;
+  max-width: 1800px;
   margin: 0 auto;
   display: grid;
   padding-top: 35px;
@@ -278,14 +311,23 @@ footer {
   background-color: #05445E;
   color: white;
 }
+#join-us-button1:hover {
+  background-color: white;
+  color: black;
+}
 
 #join-us-button {
   font-size: 1.5rem;
   width: 150px;
   border-radius: 10px;
   border: none;
-  background-color: #05445E;
+  background-color: #007bb5;
   color: white;
+  box-shadow: 0 0 5px white;
+}
+#join-us-button:hover {
+  background-color: white;
+  color: black;
 }
 
 .banner-img{

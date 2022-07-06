@@ -88,6 +88,10 @@
     grid-row: 1/5;
   }
 
+  .box1, .box2, .box3 {
+    font-size: 1rem;
+  }
+
   .info{
     display: flex;
     flex-direction: row;

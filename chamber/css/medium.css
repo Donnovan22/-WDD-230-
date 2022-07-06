@@ -63,6 +63,9 @@
     grid-column: 1/4;
     grid-row: 3/4;
   }
+  .box1, .box2, .box3 {
+    font-size: 0.9rem;
+  }
 
   .welcome-title{
     font-size: 1.85rem;

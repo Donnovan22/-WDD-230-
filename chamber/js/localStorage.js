@@ -38,8 +38,9 @@ numVisits++;
 localStorage.setItem("visits", numVisits);
 
 const lastVisitedAt =  Date.now();
+console.log(lastVisitedAt)
 
-displayTime.textContent = Math.round((lastVisitedAt - Number(localStorage.getItem("lastVisitedAt"))) / 1000);
+displayTime.textContent = Math.round((lastVisitedAt - Number(localStorage.getItem("lastVisitedAt"))) / 86400000);
 
 localStorage.setItem("lastVisitedAt", lastVisitedAt);
 
