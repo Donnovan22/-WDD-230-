@@ -263,6 +263,7 @@ nav{
 }
 
 .section6 {
+  border-radius: 15px;
   padding: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -653,11 +654,13 @@ form label input:required:valid {
   background-color: white;
 }
 
-.contact-form form {
+.contact-form form fieldset{
   display: flex;
   flex-direction: column;
-  gap: 1.3rem;
+  gap: 1rem;
 }
+
+
 
 .contact-form legend {
   font-size: 2rem;
@@ -669,7 +672,7 @@ form label input:required:valid {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom-color: 1px solid black;
+  border-bottom-color: rgb(125, 125, 125);
 }
 
 .contact-form input:hover {
