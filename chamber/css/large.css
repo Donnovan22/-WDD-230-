@@ -24,7 +24,8 @@
   }
 
   nav {
-    background-color: #05445E;
+    border-radius: 15px;
+    background-color: white;
   }
 
   .currentFullDate{
@@ -37,18 +38,16 @@
     width: 500px;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: cornflowerblue;
   }
   
   .navigation li {
+    border-radius: 15px;
     display: block;
     flex: 1 1 100%;
   }
 
   .navigation a {
     text-align: center;
-    color: white;
-    
   }
 
   .navigation li:first-child {
@@ -57,7 +56,9 @@
 
   .home-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
+    padding-bottom: 70px;
+    padding-top: 70px;
   }
   .section1 {
     grid-column: 2/4;
@@ -79,6 +80,9 @@
   .section5 {
     grid-column: 2/4 ;
     grid-row: 4/5;
+  }
+  .section5-news {
+    font-size: 1.3rem;
   }
   .section6 {
     display: flex;
@@ -116,13 +120,22 @@
   }
 
   .join-page{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1500px;
+    margin: 0 auto;
     flex-direction: row;
     justify-content: center;
+    gap: 8rem;
+  }
+  .join-page .join-form{
+    width: 100%;
   }
 
-  .join-page section {
-    width: 700px;
+  .join-page .membership-section{
+    max-width: 500px;
   }
+
 
   .directory-main .list {
     font-size: 1rem;
@@ -135,4 +148,25 @@
   .list .company-name{
     display: none;
   }
+
+  .contact-title {
+    font-size: 3rem;
+  }
+  
+  .contact-main-view{
+    align-items: center;
+    flex-direction: row;
+    gap: 10rem;
+  }
+  .contact-details {
+   width: 500px;
+  }
+
+  .contact-form{
+    width: 500px;
+  }
+
+
+
 }
+
