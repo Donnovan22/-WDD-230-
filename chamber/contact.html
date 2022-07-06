@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>thank page</title>
+  <title>Contact Page</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/medium.css">
-  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="../chamber/css/normalize.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/medium.css">
+  <link rel="stylesheet" href="./css/large.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/scrips.js" defer></script>
 </head>
-<body class="thankyou-body">
+<body class="contact-body">
   <header>
     <div class="upper-header">
       <div class="left-header">
@@ -46,8 +46,45 @@
     </div>
     <div class="currentFullDate"><span id="currentDate"></span></div>
   </header>
-  <main class="thankyou-page">
-    <p>Thanks for filling out the form!!!</p>
+  <main class="contact-main">
+    <div>
+      <h2 class="contact-title">Contact your Favorite Chamber of Commerce!</h2>
+    </div>
+    <div class="contact-main-view">
+      <div class="contact-form">
+        <fieldset>
+        <legend>Contact Form</legend>
+        <form method="get" action="thankyou.html">
+          <label for="name">Name*</label>
+          <input type="text" name="name" id="name" placeholder="Adam Smith">
+          <label for="email">Email Adress*</label>
+          <input type="email" name="email" id="email" placeholder="adam_smith@mymail.com">
+          <label for="phone">Phone*</label>
+          <input type="phone" name="phone" id="phone" placeholder="(000)000-0000">
+          <label for="gender">Are you member?*:</label>
+          <div>
+              <input type="radio" id="member" name="member" value="yes"/> Yes <br>
+              <input type="radio" id="member" name="member" value="no"/> No <br>
+          </div>
+          <label for="message">Question/Concern*: </label>
+          <textarea name="textArea" id="text-area" cols="20" rows="5" placeholder=" type your message"></textarea>
+          <input type="submit" value="Submit" class="submitButtonContact">
+        </fieldset>
+        </form>
+      </div>
+      <div class="contact-details">
+        <h2>Contact us!!!</h2>
+        <h3>Adress</h3>
+        <p>AQP Chamber of Commerce Peru</p>
+        <p>Jose Baquijano y Carrillo 5</p>
+        <p>Arequipa, Peru</p>
+        <h3>Phone</h3>
+        <p>(+51)453-45678</p>
+        <p>(+51) 935-396-569</p>
+        <h3>Email</h3>
+        <p>info@safeperucommerce.com</p>
+      </div>
+    </div>
   </main>
   <footer>
     <div class="contact-info">
@@ -74,6 +111,5 @@
       <p class="last-updated"> Last Modification: <span id="lastModification"></span></p>
     </div>
   </footer>
-  
 </body>
 </html>

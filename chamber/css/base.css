@@ -1,6 +1,6 @@
 #body{
   background-color: #D4F1F4;
-  max-width: 1600px;
+  
   margin: 0 auto;
   font-family: 'Bree Serif', serif;
 }
@@ -15,6 +15,7 @@
 }
 
 header {
+  
   background-color: #05445E;
   color: white;
   padding: 15px;
@@ -218,7 +219,8 @@ section{
   border-radius: 15px;
 }
 .home-grid{
-
+  max-width: 1600px;
+  margin: 0 auto;
   display: grid;
   padding-top: 35px;
   padding-bottom: 35px;
@@ -291,6 +293,7 @@ footer {
   height: 100%;
 }
 
+/*DISCOVER PAGE CSS*/
 
 .discover-body {
   font-family: 'Bree Serif', serif;
@@ -333,6 +336,7 @@ img {
   transition: filter 0.5s;
 }
 
+/*JOIN PAGE CSS*/
 .join-body{
   font-family: 'Bree Serif', serif;
 }
@@ -356,7 +360,7 @@ img {
   padding-left: 15px;
 }
 
-form {
+.join-form {
   margin: 50px;
   background-color: #bde3e8;
   display: flex;
@@ -381,6 +385,11 @@ form {
   box-shadow: 0 0 10px black;
 }
 
+.submitButton:hover {
+  background-color: #05445E;
+  color: white;
+}
+
 form label input, form label select{
   display: block;
   margin-top: 5px;
@@ -401,6 +410,8 @@ form label input:required:valid {
   border: 2px solid green;
 }
 
+
+/*THANKYOU PAGE CSS*/
 .thankyou-body {
   font-family: 'Bree Serif', serif;
 }
@@ -417,6 +428,8 @@ form label input:required:valid {
   font-size: 1.5rem;
 }
 
+
+/*DIRECTORY PAGE CSS*/
 .directory-body {
   font-family: 'Bree Serif', serif;
 }
@@ -489,3 +502,93 @@ form label input:required:valid {
 .list .company-name {
   display: block;
 }
+
+
+/*CONCAT PAGE CSS*/
+.contact-body {
+  font-family: 'Bree Serif', serif;
+  background-color: rgb(240, 240, 240);
+}
+
+.contact-title {
+  text-align: center;
+  width: 1000px;
+  margin: 80px auto;
+  font-size: 3rem;
+  font-weight:bold ;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 5px 5px 10px 10px rgb(112, 112, 112); 
+  border-radius: 15px;
+}
+.contact-main h2, .contact-main h3, .contact-form legend, .contact-form label {
+  color: brown;
+}
+
+.contact-main-view{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.contact-details {
+  margin-top: 100px;
+  display: block;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgb(112, 112, 112); 
+  padding: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+
+.contact-form{
+  
+  font-size: 1.1rem;
+  box-shadow: 10px 10px 10px rgb(112, 112, 112);
+  width: 500px;
+  padding: 50px;
+  background-color: white;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.contact-form legend {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.contact-form input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: 1px solid black;
+}
+
+.contact-form input:hover {
+  background-color: ghostwhite;
+}
+
+.submitButtonContact{
+  
+  padding: 5px;
+  max-width: 20%;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px black;
+}
+
+
