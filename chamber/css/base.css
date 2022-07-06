@@ -143,11 +143,14 @@ nav{
 }
 
 #click-here-button{
+  text-decoration: none;
   font-size: 1.3rem;
   border-radius: 5px;
   border: none;
   box-shadow: 0 0 10px black;
+  background-color: white;
   padding: 5px;
+  color: black;
 }
 
 #click-here-button:hover {
@@ -348,11 +351,13 @@ footer {
 }
 
 #join-us-button1 {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
   position: absolute;
   right: 10px;
   bottom: 10px;
   font-size: 1.5rem;
-  width: 150px;
   border-radius: 10px;
   border: none;
   background-color: black;
@@ -364,8 +369,11 @@ footer {
 }
 
 #join-us-button {
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 1.5rem;
-  width: 150px;
   border-radius: 10px;
   border: none;
   background-color: black;
