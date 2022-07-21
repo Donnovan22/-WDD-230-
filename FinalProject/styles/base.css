@@ -300,6 +300,10 @@ footer {
 
 /* SERVICES PAGE*/
 
+.banner-services-page {
+  width: 100%;
+}
+
 .services-page-body{ 
   font-family: 'Bree Serif', serif;
   background-color: #f9dcc4;
