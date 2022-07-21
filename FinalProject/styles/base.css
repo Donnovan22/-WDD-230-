@@ -3,6 +3,10 @@
   background-color: #f8edeb;
 }
 
+h1, h2, h3, h4 {
+  color: brown;
+}
+
 header {
   display: flex;
   flex-direction: column-reverse;
@@ -23,6 +27,7 @@ header .icon-part {
 .navigation {
   padding: 1px;
 }
+
 
 .upper-header{
   padding: 10px;
@@ -245,6 +250,7 @@ footer {
   padding: 20px;
   text-align: center;
   box-shadow: 0 0 20px black;
+  border-radius: 15px;
 }
 
 
@@ -252,6 +258,7 @@ footer {
   padding: 50px;
   background-color: white;
   box-shadow: 0 0 20px black;
+  border-radius: 15px;
 }
 
 .reservation-form form fieldset{
@@ -277,7 +284,7 @@ footer {
   background-color: ghostwhite;
 }
 
-h2,.reservation-form legend, .reservation-form label {
+.reservation-form legend, .reservation-form label {
   color: brown;
 }
 
@@ -290,4 +297,36 @@ h2,.reservation-form legend, .reservation-form label {
   font-size: 1.2rem;
   box-shadow: 0 0 10px black;
 }
+
+/* SERVICES PAGE*/
+
+.services-page-body{ 
+  font-family: 'Bree Serif', serif;
+  background-color: #f9dcc4;
+}
+
+.services-page-main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 3rem;
+  padding-bottom: 50px;
+}
+.first-title {
+  border-bottom: 2px solid black;
+  padding-bottom: 25px;
+}
+.second-title {
+  border-bottom: 2px solid black;
+  padding-bottom: 25px;
+}
+
+.services-page-main div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px black; 
+}
+
 
