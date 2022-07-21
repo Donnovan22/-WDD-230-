@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="styles/large.css">
   <script src="scripts/hamburgerButton.js" defer></script>
   <script src="scripts/lastmodified.js" defer></script>
-  <script src="#" defer></script>
+  <script src="scripts/weather.js" defer></script>
 </head>
 <body class="home-page-body">
   <header>
@@ -81,11 +81,19 @@
     <div class="second-image"> 
       <img src="homePageImages/aqp-temple400.jpg" alt="aqp temple">
     </div>
-   
-    <div class="weather">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius labore possimus quia accusamus unde dicta impedit. Ullam nobis voluptates blanditiis rem vero explicabo? Maiores nam beatae assumenda, itaque pariatur quis.</p>
+    <div class="weather"> 
+      <h2>Weather</h2>
+      <picture>
+        <img  id="weather-img" src="#" alt="weatehr img">
+      </picture>
+      <p>Current Temp: <span id="current-temp"></span> &deg;F <span></span></p>
+      <p>Current Condition: "<i><span id="current-condition"></span></i>"</p>
+      <p>Humidity: <span id="current-humidity"></span> %</p>
     </div>
-    
+    <div class="weather-forecast">
+      <div class="weather-forecast-content">
+      </div>
+    </div>
   </main>
   <footer>
     <div class="contact-info">

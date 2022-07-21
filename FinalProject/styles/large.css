@@ -11,7 +11,7 @@
     gap: 5rem;
   }
   .home-page-banner {
-    grid-column: 1/7;
+    grid-column: 1/8;
   }
 
   .first-image {
@@ -39,6 +39,15 @@
   .weather {
     grid-column: 3/5;
   }
+
+  .weather-forecast{
+    grid-column: 1/8;
+  }
+
+  .weather-forecast-content {
+    padding-right:50px ;
+  }
+  
 
   /*Temple page*/
 
