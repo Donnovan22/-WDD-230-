@@ -1,0 +1,152 @@
+@media only screen and (min-width: 35.2em) {
+  /* HEADER */
+  header{
+    flex-direction: column;
+  }
+
+  .upper-header{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    justify-content: center;
+  }
+
+  .upper-header .logo-part {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  header .icon-part {
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .down-header {
+    background-color: #fec89a;
+  }
+  
+  nav {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .navigation{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navigation li {
+    text-align: center;
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .responsive li {
+    background-color: #fec89a;
+    padding: 15px;
+  }
+  
+  .navigation li:first-child {
+    display: none;
+  }
+  
+  .navigation a:hover {
+    padding:20px;
+    border-radius: 5px;
+    color: black;
+    background-color: #F8EDEB;
+    box-shadow: 0 0 5px #ffb5a7;
+  }
+
+  /* Main*/
+
+  .home-page-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .home-page-banner{
+    grid-column: 1/6;
+    grid-row: 1/1;
+  }
+
+  .call-to-action{
+
+    grid-column: 2/4;
+    grid-row: 2/2;
+    padding: 20px;
+
+  }
+
+  .hotel-chain-information{
+    grid-column: 1/3;
+    grid-row: 3/3;
+    padding: 20px; 
+  }
+
+  .first-image {
+   
+    grid-column: 3/6;
+    grid-row: 3/3;
+    padding: 20px;
+   
+  }
+
+  .temple-information{
+    grid-column: 3/6;
+    grid-row: 4/4;
+    padding: 20px;
+  }
+
+  .second-image {
+    
+    grid-column: 1/3;
+    grid-row: 4/4;
+    padding: 20px;
+  }
+
+  .weather {
+    grid-column: 2/4;
+    grid-row: 5/5;
+    
+  }
+
+
+  /* footer*/
+  .contact-info {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+  }
+
+  .logo-and-info{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .author-info {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  /*TEMPLE PAGE*/
+
+  .temple-img {
+    width: 400px;
+  }
+}

@@ -13,11 +13,103 @@
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/large.css">
-  <script src="" defer></script>
+  <script src="scripts/hamburgerButton.js" defer></script>
   <script src="" defer></script>
   <script src="" defer></script>
 </head>
-<body>
-  
+<body class="home-page-body">
+  <header>
+    <div class="upper-header">
+      <div class="logo-part">
+        <img class="my-logo" src="./homePageImages/logo-temple.jpg" alt="logo">
+        <h1>Temple Inn & Suites</h1>
+      </div>
+      <div class="icon-part">
+        <div><a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook">F</a></div>
+        <div><a target="_blank" href="https://www.linkedin.com/company/united-states/" class="fa fa-linkedin">L</a></div>
+      </div>
+    </div>
+    <div class="down-header">
+      <nav>
+        <ul class="navigation">
+          <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a target="blank" href="temple.html">Temple</a></li>
+          <li><a target="blank" href="#">Reservation</a></li>
+          <li><a target="blank" href="#">Services</a></li>
+          <li><a target="blank" href="#">Contact us</a></li>
+        </ul>
+      </nav>  
+    </div>
+  </header>
+  <main class="home-page-main">
+    <div class="home-page-banner">
+      <img src="./homePageImages/temple-main-2040.jpg" alt="banner">
+    </div>
+    <div class="call-to-action">
+      <h3>TEMPLE IS RETURNING TO NORMAL OPERATIONS</h3>
+      <p>All ordinances are available by appointment only. Click the button below to an appointment.</p>
+      <h3><a href="reservation.html">Book Now!</a></h3>
+    </div>
+    <div class="hotel-chain-information">
+      <h2>Temple Inn & Suites</h2>
+      <p>Hey you! thanks for visiting us! We are more than happy to help you have the best experience attending to your favorite Temple.!</p>
+      <p>We manage specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.</p>
+      <p>The company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. The hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company.</p>
+    </div>
+    <div class="first-image">
+      <img src="homePageImages/first-image500.jpg" alt="first img">
+    </div>
+    
+    <div class="temple-information">
+      <h2>Arequipa Temple</h2>
+      <h2>Adress</h2>
+      <p>Calle Cusco 380<br>
+      Carmen Alto Distrito De Cayma<br>
+      Arequipa, Arequipa, Peru</p>
+      <h2>Telephone</h2>
+      <p>(51) 54-640-300</p>
+      <h2>services</h2>
+      <p>No clothing rental available <br>
+      No cafeteria available<br>
+      No patron housing available<br>
+      Distribution center nearby</p>
+      <h2>Additional information</h2>
+      <h3>Family Ordinance Cards</h3>
+      <p>Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.</p>
+    </div>
+    <div class="second-image"> 
+      <img src="homePageImages/aqp-temple400.jpg" alt="aqp temple">
+    </div>
+   
+    <div class="weather">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius labore possimus quia accusamus unde dicta impedit. Ullam nobis voluptates blanditiis rem vero explicabo? Maiores nam beatae assumenda, itaque pariatur quis.</p>
+    </div>
+    
+  </main>
+  <footer>
+    <div class="contact-info">
+      <div class="logo-and-info">
+       <a href="index.html"><img class="my-logo" src="homePageImages/logo-temple.jpg" alt="logoFooter"></a>
+        <div>
+          <h3>Temple Inn & Suites</h3>
+          <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        </div>
+      </div>
+      <div>
+        <div class="location-info">
+          <p>info@TEMPLEInn&Suites.com</p>
+          <p>+51 986-935-969</p>
+          <p><a target="_blank" href="https://goo.gl/maps/nUgAoz1huaEV9qm27">Location Map</a></p>
+          <p><a target="_blank" href="https://openweathermap.org/">Open Weather Map</a></p>
+        </div>
+      </div>
+    </div> 
+    <div class="author-info">
+      <p>&copy;<span id="year"></span> Temple Inn & Suites</p>
+      <p>||</p>
+      <p>Emanuel Valencia</p>
+    </div>
+  </footer>
 </body>
 </html>

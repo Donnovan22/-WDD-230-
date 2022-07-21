@@ -1,0 +1,52 @@
+{
+  "temples": [
+    {
+      "name": "Lima Peru Temple",
+      "adress": "Av. Javier Prado Este 6420, Urb. Santa Patricia La Molina, Lima 12, Peru",
+      "phoneNumber": "(51) 1-612-7200",
+      "img": "templePageImages/lima-temple450.jpg",
+      "service1": "Clothing rental available",
+      "service2": "No cafeteria available",
+      "service3": "Patron housing available",
+      "service4": "Distribution center nearby",     
+      "closure1": "Monday, 3 October 2022 - Monday, 17 October 2022",
+      "closure2": "Monday, 17 April 2023 - Monday, 1 May 2023"
+    },
+    {
+      "name": "Trujillo Peru Temple",
+      "adress": "Av. Mansiche Km 3.5, Huanchaco, Trujillo, La Libertad, Peru",
+      "phoneNumber": "(51) 44-602-130",
+      "img": "templePageImages/trujillo-temple450.jpg",
+      "service1": "No clothing rental available",
+      "service2": "No cafeteria available",
+      "service3": "Patron housing available",
+      "service4": "Distribution center nearby",     
+      "closure1": "Saturday, 24 December 2022",
+      "closure2": "Monday, 4 September 2023 - Monday, 2 October 2023"
+    },
+    {
+      "name": "Cochabamba Bolivia Temple",
+      "adress": "Av. Melchor Urquidi 1500, Alto Queru Queru, Cochabamba, Bolivia",
+      "phoneNumber": "(591) 4-429-3161",
+      "img": "templePageImages/bolivia-temple450.jpg",
+      "service1": "Clothing rental available",
+      "service2": "Cafeteria available",
+      "service3": "Patron housing available",
+      "service4": "Distribution center nearby",     
+      "closure1": "Monday, 3 October 2022 - Monday, 17 October 2022",
+      "closure2": "Monday, 10 April 2023 - Monday, 29 May 2023"
+    },
+    {
+      "name": "Guayaquil Ecuador Temple",
+      "adress": "Calle Rosendo Maridueña 8845, Urdesa Norte — Guayaquil, Ecuador",
+      "phoneNumber": "(593) 4-371-8100",
+      "img": "templePageImages/ecuador-temple450.jpg",
+      "service1": "Clothing rental available",
+      "service2": "No cafeteria available",
+      "service3": "Patron housing available",
+      "service4": "Distribution center nearby",     
+      "closure1": "Friday, 12 August 2022 (Limited Operations)",
+      "closure2": "Monday, 31 October 2022 - Monday, 21 November 2022"
+    }
+  ]
+}

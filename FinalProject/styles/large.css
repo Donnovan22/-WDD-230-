@@ -1,0 +1,55 @@
+@media only screen and (min-width: 65em) { 
+  .upper-header {
+    gap: 15rem;
+  }
+ 
+
+  .home-page-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+  }
+  .home-page-banner {
+    grid-column: 1/7;
+  }
+
+  .first-image {
+    display: block;
+    grid-column: 4/6;
+  }
+
+  .second-image {
+    display: block;
+    grid-column:2/4;
+  }
+
+  .call-to-action{
+   grid-column: 3/5;
+  }
+
+  .hotel-chain-information{
+    grid-column: 2/4;
+  }
+
+  .temple-information{
+    grid-column: 4/6;
+  }
+
+  .weather {
+    grid-column: 3/5;
+  }
+
+  /*Temple page*/
+
+
+  .temple-page-main section{
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  .temple-img {
+    width: 450px;
+  }
+}
