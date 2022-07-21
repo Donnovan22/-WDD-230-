@@ -205,10 +205,17 @@ footer {
   padding: 15px;
 }
 
+.location-info {
+  text-align: left;
+ 
+}
+
 .location-info a {
   text-decoration: none;
   color: orangered;
+  
 }
+
 
 /* TEMPLE PAGE */
 
@@ -355,4 +362,16 @@ footer {
   box-shadow: 0 0 10px black; 
 }
 
+/*resources page*/
+
+.resources-page-body {
+  font-family: 'Bree Serif', serif;
+  background-color: #f9dcc4;
+}
+
+.resources-page-main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
 
