@@ -18,6 +18,9 @@ header {
   border-radius: 100px;
   width: 150px;
 }
+.my-logo:hover {
+  box-shadow: 0 0 15px black;
+}
 
 header .icon-part {
   display: none;
@@ -26,6 +29,7 @@ header .icon-part {
 
 .navigation {
   padding: 1px;
+  font-size: 1.2rem;
 }
 
 
@@ -206,14 +210,12 @@ footer {
 }
 
 .location-info {
-  text-align: left;
- 
+  border-bottom: 2px solid black;
 }
 
 .location-info a {
   text-decoration: none;
   color: orangered;
-  
 }
 
 
