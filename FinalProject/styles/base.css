@@ -216,3 +216,78 @@ footer {
   width: 300px;
 }
 
+/* Reservation Page*/
+
+.reservation-page-body {
+  font-family: 'Bree Serif', serif;
+  background-color: #f8edeb;
+}
+
+.reservation-page-main {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.reservation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 50px;
+}
+
+
+.announcement {
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px black;
+}
+
+
+.reservation-form {
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0 0 20px black;
+}
+
+.reservation-form form fieldset{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reservation-form legend {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.reservation-form input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: rgb(108, 106, 106);
+}
+
+.reservation-form input:hover {
+  background-color: ghostwhite;
+}
+
+h2,.reservation-form legend, .reservation-form label {
+  color: brown;
+}
+
+.submitButtonContact{
+  padding: 5px;
+  max-width: 250px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px black;
+}
+

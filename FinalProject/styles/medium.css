@@ -149,4 +149,10 @@
   .temple-img {
     width: 400px;
   }
+
+  /*reservation page*/
+
+  .reservation-form {
+    width: 500px;
+  }
 }

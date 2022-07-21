@@ -52,4 +52,23 @@
   .temple-img {
     width: 450px;
   }
+
+  /*Reservation Page*/
+
+  .reservation-content {
+    flex-direction: row;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .reservation-form {
+    width: 500px;
+  }
+
+  .announcement {
+    max-width: 500px;
+    padding: 20px;
+    font-size: 2rem;
+  }
+  
 }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <script src="scripts/hamburgerButton.js" defer></script>
+  <script src="" defer></script>
+  <script src="" defer></script>
+</head>
+<body class="reservation-page-body">
+  <header>
+    <div class="upper-header">
+      <div class="logo-part">
+        <img class="my-logo" src="./homePageImages/logo-temple.jpg" alt="logo">
+        <h1>Temple Inn & Suites</h1>
+      </div>
+      <div class="icon-part">
+        <div><a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook">F</a></div>
+        <div><a target="_blank" href="https://www.linkedin.com/company/united-states/" class="fa fa-linkedin">L</a></div>
+      </div>
+    </div>
+    <div class="down-header">
+      <nav>
+        <ul class="navigation">
+          <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a target="blank" href="temple.html">Temple</a></li>
+          <li><a target="blank" href="reservation.html">Reservation</a></li>
+          <li><a target="blank" href="#">Services</a></li>
+          <li><a target="blank" href="#">Contact us</a></li>
+        </ul>
+      </nav>  
+    </div>
+  </header>
+  <main class="reservation-page-main">
+    
+    <img src="homePageImages/argentina-temple-2040.jpg" alt="banner img" class="reservation-page-banner">
+ 
+    <div class="reservation-content">
+      <div class="reservation-form">
+        <form method="get" action="">
+          <fieldset>
+            <legend>Reservation Form</legend>
+            <label for="location">Location*</label>
+              <select name="location" id="location" required>
+                <option value=""> select an option</option>
+                <option value="">Trujillo Peru</option>
+                <option value="">Lima-Peru</option>
+                <option value="">Guayaquil Ecuador</option>
+                <option value="">Cochabamba Bolivia</option>
+              </select>
+            <label for="name">Full Name*</label>
+            <input type="text" name="name" id="name" placeholder="Joseph Smith" required>
+            <label for="email">Email Adress*</label>
+            <input type="email" name="email" id="email" placeholder="Joseph_smith@mail.com" required>
+            <label for="phone">Phone*</label>
+            <input type="text" name="phone" id="phone" placeholder="(000)000-0000" required>
+            <label for="country">Home State or Country*</label>
+            <input type="text" name="country" id="country" placeholder="Peru" required>
+            <label for="date">Arrival Date*</label>
+            <input type="date" name="date" id="date" required>
+            <label for="date1">Departure Date*</label>
+            <input type="date" name="date1" id="date1" required>
+            <label for="member">Room Type*:</label>
+            <div>
+                <input type="radio" id="member" name="member" value="yes"/> Single <br>
+                <input type="radio" id="member2" name="member" value="no"/> Double <br>
+                <input type="radio" id="member2" name="member" value="no"/> Queen <br>
+                <input type="radio" id="member2" name="member" value="no"/> King <br>
+                <input type="radio" id="member2" name="member" value="no"/> Presidential Suite <br>
+            </div>
+            <label for="message">Special Accommodations/Comments*: </label>
+            <textarea name="textArea" id="message" cols="20" rows="5" placeholder=" type here"></textarea>
+            <input type="submit" value="Make my Reservation!!!" class="submitButtonContact">
+          </fieldset>
+        </form>
+      </div>
+      <div class="announcement">
+        <h2>Make you Reservation Now!!</h2>
+        <p>We are waiting for you to have an amazing experience with the Services that we offer!</p>
+        <h2>Fill out this form and we will work hard to give you the best experience you will ever have!!</h2>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="contact-info">
+      <div class="logo-and-info">
+       <a href="index.html"><img class="my-logo" src="homePageImages/logo-temple.jpg" alt="logoFooter"></a>
+        <div>
+          <h3>Temple Inn & Suites</h3>
+          <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        </div>
+      </div>
+      <div>
+        <div class="location-info">
+          <p>info@TEMPLEInn&Suites.com</p>
+          <p>+51 986-935-969</p>
+          <p><a target="_blank" href="https://goo.gl/maps/nUgAoz1huaEV9qm27">Location Map</a></p>
+          <p><a target="_blank" href="https://openweathermap.org/">Open Weather Map</a></p>
+        </div>
+      </div>
+    </div> 
+    <div class="author-info">
+      <p>&copy;<span id="year"></span> Temple Inn & Suites</p>
+      <p>||</p>
+      <p>Emanuel Valencia</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
